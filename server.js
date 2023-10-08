@@ -5,7 +5,6 @@ const jsonRoute = require("./models/jsonData");
 const cors = require("cors");
 
 const MONGODB = `mongodb://127.0.0.1:27017/jsondata`;
-// const MONGODB = `mongodb+srv://poojapithva2002:pooja1234@cluster0.lc5zdxk.mongodb.net/?retryWrites=true&w=majority`;
 app.use(cors());
 
 app.use(Express.json());
